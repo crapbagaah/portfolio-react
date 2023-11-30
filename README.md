@@ -5,7 +5,15 @@
 
 ## Table of Contents
 
-- [Demo] https://sahelisahoo.netlify.app/
+- [Demo] (https://sahelisahoo.netlify.app/)
+- [Features] Home, About, Skills, Work, Contact
+- [Built With] ReactJs and TailwindCSS
 
+## Built With
 
-Feel free to reach out for collaboration, questions, or just to connect!
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework.
+
+### Prerequisites
+
+- Node.js and npm installed.
