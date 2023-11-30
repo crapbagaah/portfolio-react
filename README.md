@@ -1,4 +1,11 @@
-#Portfolio
-## Made a portfolio website using ReactJS and TailwindCSS.
+# Portfolio
+## Welcome to my React and Tailwind CSS portfolio! This project serves as my personal portfolio to showcase my projects, skills, and experience.
 
-### Website: https://sahelisahoo.netlify.app/
+### Website: 
+
+## Table of Contents
+
+- [Demo]([#demo](https://sahelisahoo.netlify.app/))
+
+
+Feel free to reach out for collaboration, questions, or just to connect!
