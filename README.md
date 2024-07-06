@@ -6,7 +6,7 @@
 ## Table of Contents
 
 - [Demo] (https://sahelisahoo.netlify.app/)
-- [Features] Home, About, Skills, Work, Contact
+- [Features] Home, About, Experience, Skills, Work, Contact
 - [Built With] ReactJs and TailwindCSS
 
 ## Built With
