@@ -28,7 +28,7 @@ const Skills = () => {
             
                 <div className='shadow-md shadow-[#8f1fff] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JS} alt="javascript" />
-                    <p className='my-4'>JavScript</p>
+                    <p className='my-4'>JavaScript</p>
                 </div>
             
                 <div className='shadow-md shadow-[#8f1fff] hover:scale-110 duration-500'>

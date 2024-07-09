@@ -1,7 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
-import Me from '../assets/ideo1.png'
+//import Me from '../assets/ideo1.png'
 
 const Home = () => {
   return (

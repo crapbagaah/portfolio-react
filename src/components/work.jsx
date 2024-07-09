@@ -1,10 +1,12 @@
 import React from 'react'
-import BgImg from '../assets/bgimg.png'
+//import BgImg from '../assets/bgimg.png'
 import Varc from '../assets/varc_web.png'
 import Elate from '../assets/elate.png'
 import Ecomm from '../assets/ecomm.png'
-import CubeSat from '../assets/cubesat.png'
+//import CubeSat from '../assets/cubesat.png'
 import Portf from '../assets/portf.png'
+import Recipe from '../assets/recipe.png'
+import Todo from '../assets/todo.png'
 
 //import img
 
@@ -19,13 +21,27 @@ const Work = () => {
             {/*-------card-----------*/}
             <div 
             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                
+                <div style={{backgroundImage:`url(${Portf})`}}
+                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='pt-4 text-center'>
+                            <a href="https://sahelisahoo.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/crapbagaah/portfolio-react">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div style={{backgroundImage:`url(${Varc})`}}
                 className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         
                         <span className='text-2xl font-bold text-white tracking-wider ml-2'>
-                            Varc Website
+                            VARC Website
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://vitarc.github.io/">
@@ -36,6 +52,61 @@ const Work = () => {
                             </a>
                         </div>
                         
+                    </div>
+                </div>
+
+                
+
+                <div style={{backgroundImage:`url(${Ecomm})`}}
+                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        
+                        <span className='text-2xl font-bold text-white tracking-wider ml-5'>
+                            Ecommerce
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://e-commercesaheli.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/crapbagaah/ACM-E-comm">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div style={{backgroundImage:`url(${Recipe})`}}
+                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider'>
+                            yummyYard
+                        </span>
+                        <div className='pt-4 text-center'>
+                            {/*<a href="https://sahelisahoo.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>*/}
+                            <a href="https://github.com/crapbagaah/yummyYard">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage:`url(${Todo})`}}
+                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider ml-8'>
+                            TodoApp
+                        </span>
+                        <div className='pt-4 text-center'>
+                            <a href="https://to-do-list-alpinejs.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/crapbagaah/to-do-list">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -58,26 +129,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage:`url(${Ecomm})`}}
-                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        
-                        <span className='text-2xl font-bold text-white tracking-wider ml-2'>
-                            Ecommerce
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="https://e-commercesaheli.netlify.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/crapbagaah/ACM-E-comm">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div style={{backgroundImage:`url(${CubeSat})`}}
+                {/*<div style={{backgroundImage:`url(${CubeSat})`}}
                 className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         
@@ -87,28 +139,16 @@ const Work = () => {
                         <div className='pt-8 text-center'>
                             {/*<a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>*/}
+                            </a>
                             <a href="https://github.com/crapbagaah/cubesat_varc">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                         
                     </div>
-                </div>
+                </div>*/}
 
-                <div style={{backgroundImage:`url(${Portf})`}}
-                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <div className='pt-4 text-center'>
-                            <a href="https://sahelisahoo.netlify.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/crapbagaah/portfolio-react">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
         </div>

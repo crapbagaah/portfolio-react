@@ -31,6 +31,12 @@ const Navbar = () => {
                 </li>
 
                 <li>
+                <Link to="experience" smooth={true} offset={50} duration={500}>
+                Experience
+                </Link>
+                </li>
+
+                <li>
                 <Link to="skills" smooth={true} offset={50} duration={500}>
                 Skills
                 </Link>
@@ -67,6 +73,11 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl '>
+            <Link onClick={handleClick} to="experience" smooth={true} offset={50} duration={500}>
+                Experience
+            </Link>
+            </li>
+            <li className='py-6 text-4xl '>
             <Link onClick={handleClick} to="skills" smooth={true} offset={50} duration={500}>
                 Skills
                 </Link>
@@ -88,7 +99,7 @@ const Navbar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#642bcc]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="https://www.linkedin.com/in/saheli-sahoo-8772b2220/">LinkedIn <FaLinkedin size={30} /></a>
+                    href="https://www.linkedin.com/in/sahelisahoo/">LinkedIn <FaLinkedin size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
@@ -100,7 +111,7 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a className='flex justify-between items-center w-full text-gray-300'
-                href="https://drive.google.com/file/d/162zEMrzO9IyncnyP0c2DYVnYWZXpw2N4/view?usp=sharing">Resume <BsFillPersonLinesFill size={30} /></a>
+                href="https://drive.google.com/file/d/1_yGhx7ktYzuT1B-WeZ53Yi0m3rlCDJpc/view?usp=sharing">Resume <BsFillPersonLinesFill size={30} /></a>
                 </li>
             </ul>
         </div>
