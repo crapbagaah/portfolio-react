@@ -27,7 +27,9 @@ const About = () => {
               <br /><br />
               What truly fuels my passion is collaboration. I love connecting with fellow enthusiasts, exchanging ideas, and working on exciting projects together. Learning is a journey best shared, and I'm ready to embrace the collaborative spirit of the tech community.
               <br /><br />
-              So, whether you're here to swap coding stories, brainstorm on a project, or just geek out about the latest tech trends, let's connect! The digital world is vast, and the possibilities are endless.
+              In my downtime, you’ll often find me clicking, indulging in my love for photography, capturing moments and stories through my lens. It’s my creative outlet outside of coding, and it helps me see the world from a new perspective.
+              <br /><br />
+              So, whether you’re here to swap coding stories, brainstorm a project, discuss cybersecurity trends, or simply geek out over photography, let’s connect! The digital world is vast, and the possibilities are endless.
               <br /><br />
               Let's code, learn, and innovate together. 🚀
             </p>

@@ -36,6 +36,23 @@ const Work = () => {
                     </div>
                 </div>
 
+                <div style={{backgroundImage:`url(${Recipe})`}}
+                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider'>
+                            yummyYard
+                        </span>
+                        <div className='pt-4 text-center'>
+                            <a href="https://yummy-yard-client.vercel.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/crapbagaah/yummyYard">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div style={{backgroundImage:`url(${Varc})`}}
                 className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
                     <div className='opacity-0 group-hover:opacity-100'>
@@ -76,22 +93,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage:`url(${Recipe})`}}
-                className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
-                            yummyYard
-                        </span>
-                        <div className='pt-4 text-center'>
-                            {/*<a href="https://sahelisahoo.netlify.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>*/}
-                            <a href="https://github.com/crapbagaah/yummyYard">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div style={{backgroundImage:`url(${Todo})`}}
                 className='shadow-lg shadow-purple-500 group container rounded-md flex justify-center items-center mx-auto content-div m-4'>

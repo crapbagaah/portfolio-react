@@ -6,6 +6,9 @@ import JS from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Github from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
+import Mongodb from '../assets/mongodb.png';
+import Express from '../assets/express.png';
+import Node from '../assets/node.png';
 
 const Skills = () => {
   return (
@@ -45,6 +48,21 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#8f1fff] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind CSS" />
                     <p className='my-4'>Tailwind CSS</p>
+                </div>
+
+                <div className='shadow-md shadow-[#8f1fff] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Mongodb} alt="MongoDB" />
+                    <p className='my-4'>MongoDB</p>
+                </div>
+
+                <div className='shadow-md shadow-[#8f1fff] hover:scale-110 duration-500'>
+                    <img className='w-16 mx-auto' src={Express} alt="Express" />
+                    <p className='my-4'>ExpressJS</p>
+                </div>
+
+                <div className='shadow-md shadow-[#8f1fff] hover:scale-110 duration-500'>
+                    <img className='w-28 mx-auto mt-7' src={Node} alt="Node" />
+                    <p className='my-4'>NodeJS</p>
                 </div>
             </div>
         </div>
